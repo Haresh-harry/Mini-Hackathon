@@ -1,0 +1,204 @@
+body {
+    width: 1440px;
+    height: 2003px;
+    flex-shrink: 0;
+    background: #F8F8F4;
+}
+
+.frame1 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2px;
+}
+.frame1 h1 {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40%; /* 117.6px */
+}
+
+.line {
+    gap: 89px;
+}
+hr {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    width: 1510px;
+    height: 1px;
+}
+
+.frame2 {
+    width: 327px;
+    height: 61px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+    margin-bottom: 59px;
+}
+.frame2 input {
+    width: 267px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid var(--Dark, #3C3030);
+    opacity: 0.3;
+}
+.frame2 :placeholder-shown {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    opacity: 0.61;
+}
+.frame2 button {
+    display: inline-flex;
+    padding: 17px 13px 16px 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 63.2px;
+    border-radius: 1px;
+    border: 1px solid #E84848;
+    background: #E84848;
+    padding: 17px 18px 16px 22px;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 89px; */
+    justify-content: center;
+    margin: 0px 18% 0 18%;
+}
+.frame3 h2 {
+    color: var(--Dark-Red, #D02424);
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    gap: 25px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 25px; */
+}
+.bar {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 0 0 70px 0;
+}
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-right: 50px;
+}
+.slide img {
+    width: 250px;
+    height: 120px;
+    margin-bottom: 1px;
+}
+
+.slide #p1 {
+    width: 250px;
+    color: var(--Dark, #3C3030);
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: -0.72px;
+    margin-bottom: 1px;
+}
+.slide #p2 {
+    width: 250px;
+    color: var(--Dark, #3C3030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    opacity: 0.8;
+    margin-bottom: 1px;
+}
+.action {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.action p {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.action #arrow {
+    color: var(--Dark-Red, #D02424);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+    text-decoration-line: underline;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    padding: 39px 0 37px 0;
+}
+.tab {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.bleft {
+    display: flex;
+    align-items: center;
+    gap: 2.264px;
+}
+.bleft p {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 15.095px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21.133px */
+}
+.bleft img {
+    width: 8.302px;
+    height: 8.302px;
+}
+
+.tab p {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
